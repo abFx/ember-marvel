@@ -1,12 +1,14 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  //changing this parameters to true will force the model reload
+  //on change
   queryParams: {
     limit: {
       refreshModel: true
     },
     offset: {
-      refreshModel: true
+      refreshModel: false
     }
   },
   model(params) {
