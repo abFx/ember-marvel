@@ -1,0 +1,38 @@
+/******************************************************************************/
+/* 1: Variables Setup: */
+
+/* General Colors FLAT UI COLORS: */
+$peter-river: #3498db;
+$belize-hole: #2980b9;
+$cloud: #ecf0f1;
+$silver: #bdc3c7;
+$white-full: white;
+$wet-asphalt: #34495e;
+$midnight-blue: #2c3e50;
+$emerald: #2ecc71;
+$nephritis: #27ae60;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$alzarin: #e74c3c;
+$pomegranate: #c0392b;
+
+/* Base Colors: */
+
+$primary-color:       $alzarin;
+$secondary-color:     $midnight-blue;
+$tertiary-color: 			$emerald;
+$quaternary-color: 		$peter-river;
+$quinary-color: 			$carrot;
+
+$darken-primary-color:      #8e44ad;
+$darken-secondary-color:    #c0392b;
+$darken-tertiary-color:     $nephritis;
+$darken-quaternary-color:   $belize-hole;
+$darken-quinary-color:    	$pumpkin;
+
+/* Body text color */
+$body-font-color: $midnight-blue;
+$body-background-color: lighten($cloud, 2%);
+
+/* Headers text colors */
+$headers-text-color: $midnight-blue;

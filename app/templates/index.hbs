@@ -1,0 +1,12 @@
+<div class="container">
+  {{hero-list list=model}}
+
+  <p class="text-center">
+    {{#if isLoading}}
+      Loading...
+    {{else}}
+      <a href="#" class="button small radius" {{action 'loadMore'}}> LOAD MORE </a>
+    {{/if}}
+  </p>
+  {{outlet}}
+</div>

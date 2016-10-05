@@ -1,0 +1,7 @@
+<p>
+  {{#link-to 'hero' heroData class="th"}}
+    {{hero-thumbnail iconImage=heroData.thumbnail}}
+  {{/link-to}}
+  <h6>{{hero-name title=heroData.name}}</h6>
+  {{yield}}
+</p>

@@ -1,0 +1,5 @@
+$card-background: $secondary-color;
+
+.hero-list{
+  li{ @extend .text-center; }
+}

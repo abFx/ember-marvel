@@ -1,0 +1,7 @@
+.hero-card p{
+  @extend .text-center;
+  @extend .label;
+  @extend .radius;
+
+  background-color: white;
+}

@@ -1,0 +1,38 @@
+@media #{$small-up} { }
+@media #{$small-only} {
+
+  .hero-list{
+    @include block-grid(3);
+  }
+
+}
+
+@media #{$medium-up} {
+
+  .hero-list{
+    @include block-grid(5);
+  }
+
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} {
+
+  .hero-list{
+    @include block-grid(7);
+  }
+
+}
+@media #{$large-only} { }
+
+@media #{$xlarge-up} {
+
+  .hero-list{
+    @include block-grid(10);
+  }
+
+}
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }

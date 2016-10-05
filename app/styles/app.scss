@@ -1,0 +1,19 @@
+@import 'bower_components/foundation/scss/normalize';
+@import 'bower_components/foundation/scss/foundation';
+
+@import 'fonts/foundation/foundation-icons.css';
+
+/* UI ELEMENTS */
+@import 'utils/config';
+@import 'utils/ui-elements';
+@import 'utils/header';
+@import 'utils/response-layouts';
+
+/* COMPONENTS */
+@import 'components/hero-card';
+@import 'components/hero-list';
+
+/* LAYOUTS*/
+@import 'layouts/application';
+@import 'layouts/home';
+@import 'layouts/hero';

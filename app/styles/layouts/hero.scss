@@ -1,0 +1,34 @@
+$hero-background: white;
+$description-color: $secondary-color;
+
+.hero-header{
+  @include grid-row();
+}
+
+.hero-portrait{
+  @include grid-column(12);
+
+  .hero{
+    @extend .label;
+    @extend .radius;
+
+    background-color: $hero-background;
+
+    width: 100%;
+    padding: 1em 0;
+
+    img{
+      border-radius: 50px;
+    }
+  }
+
+}
+
+ul.about{
+  list-style-type: none;
+
+  li{
+    display: inline-block;
+    color: $description-color;
+  }
+}
