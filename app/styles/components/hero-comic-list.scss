@@ -1,0 +1,7 @@
+$card-background: $secondary-color;
+
+.hero-comic-list{
+  li{ @extend .text-center; }
+  word-wrap:break-word;
+  p{ color: $midnight-blue; }
+}

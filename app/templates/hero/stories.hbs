@@ -1,0 +1,10 @@
+<ul class="hero-story-list">
+  {{#each model as |story|}}
+    {{#hero-story storyData=story}}
+        {{yield}}
+    {{/hero-story}}
+  {{else}}
+    <li class="nothing-found">Nothing here</li>
+  {{/each}}
+</ul>
+{{outlet}}

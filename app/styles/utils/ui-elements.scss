@@ -6,6 +6,19 @@
   height: 100px;
 }
 
+.hero-image.comic{
+  width: 200px;
+  height: auto;
+}
+
 #main-logo{
   width: 40%;
+}
+
+p.description{
+  white-space: normal;
+  text-align: left;
+  padding: 1em 2em;
+  max-height: 90px;
+  overflow: hidden;
 }

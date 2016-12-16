@@ -1,0 +1,21 @@
+$card-background: $secondary-color;
+
+.hero-story-list{
+  p{ color: $midnight-blue; }
+  li.hero-story{
+    padding: 3em;
+    @extend .text-left;
+  }
+
+  ul.story-creators{
+    margin: 0px;
+    li{
+      @extend .text-left;
+      h1{ font-size: 21px; }
+      p{ 
+        font-size: 24px;
+        margin-top: -22px;
+      }
+    }
+  }
+}

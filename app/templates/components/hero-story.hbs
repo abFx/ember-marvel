@@ -1,0 +1,13 @@
+<div>
+  <h3>{{hero-name title=storyData.title}}</h3>
+  <p><strong>Creators :</strong></p>
+  <ul class="story-creators">
+  {{#each storyData.creators.items as |creator|}}
+    <li>
+      <h1>{{creator.name}}</h1>
+      <p><small>{{creator.role}}</small></p>
+    </li>
+  {{/each}}  
+  </ul>
+  {{yield}}
+</div>

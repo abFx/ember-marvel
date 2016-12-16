@@ -5,16 +5,20 @@
         <h2>{{model.name}}</h2>
         <hr>
         <h4>About</h4>
+        <p>{{model.description}}</p>
+        <hr>
         <ul class="about">
           <li>
-            No. Stories <strong>{{model.stories.available}}</strong>
+            {{#link-to "hero.stories" model}}Stories <strong>{{model.items.stories}}</strong>{{/link-to}}
           </li>
           <li>
-            No. Series <strong>{{model.series.available}}</strong>
+            {{#link-to "hero.series" model}}Series <strong>{{model.items.series}}</strong>{{/link-to}}
+          </li>
+          <li>
+            {{#link-to "hero.comics" model}}Comics <strong>{{model.items.comics}}</strong>{{/link-to}}
           </li>
         </ul>
+        {{outlet}}
       </div>
     </div>
-
-  {{outlet}}
 </div>

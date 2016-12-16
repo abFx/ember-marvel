@@ -1,0 +1,10 @@
+<ul class="hero-comic-list">
+  {{#each model as |comic|}}
+    {{#hero-comic comicData=comic}}
+        {{yield}}
+    {{/hero-comic}}
+  {{else}}
+    <li class="nothing-found">Nothing here</li>
+  {{/each}}
+</ul>
+{{outlet}}

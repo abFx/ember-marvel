@@ -3,6 +3,7 @@ import Ember from 'ember';
 export default Ember.Service.extend({
   apiHost: 'https://gateway.marvel.com/v1/public/',
   apiKey: '99d7fa0a888391fb9ea7fcaf0c7e05d2',
+  currentHero: null,
   getHeroes: function(){
     const endpoint = 'characters';
     let params = null;

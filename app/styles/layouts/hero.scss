@@ -17,7 +17,7 @@ $description-color: $secondary-color;
     width: 100%;
     padding: 1em 0;
 
-    img{
+    & > img{
       border-radius: 50px;
     }
   }
@@ -32,3 +32,5 @@ ul.about{
     color: $description-color;
   }
 }
+
+li.nothing-found{ color: $midnight-blue; }

@@ -5,6 +5,8 @@
     @include block-grid(3);
   }
 
+  .hero-comic-list{ @include block-grid(1); }
+  .hero-story-list{ @include block-grid(2); }
 }
 
 @media #{$medium-up} {
@@ -22,6 +24,9 @@
     @include block-grid(7);
   }
 
+  .hero-comic-list{ @include block-grid(2); }
+  .hero-story-list{ @include block-grid(3); }
+
 }
 @media #{$large-only} { }
 
@@ -30,6 +35,9 @@
   .hero-list{
     @include block-grid(10);
   }
+
+  .hero-comic-list{ @include block-grid(3); }
+  .hero-story-list{ @include block-grid(4); }
 
 }
 @media #{$xlarge-only} { }
